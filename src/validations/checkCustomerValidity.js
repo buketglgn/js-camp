@@ -9,6 +9,7 @@ export  class CheckCustomerValidity{
 
     checkCustomerValidity(user){
     
+         
         
         let requiredFields = "id firstName lastName age city".split(" ")
         let hasErrors= false
