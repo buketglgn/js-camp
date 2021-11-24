@@ -10,9 +10,11 @@ export  class CheckCustomerValidity{
     checkCustomerValidity(user){
     
          
-        
+        // şuan push'laanbilir anladım
+
         let requiredFields = "id firstName lastName age city".split(" ")
         let hasErrors= false
+        
         for (const field of requiredFields) {
             if(!user[field]){
                 hasErrors = true
